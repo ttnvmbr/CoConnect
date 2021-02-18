@@ -1,0 +1,130 @@
+html, body {
+    height: 100%;
+    color: dimgray;
+    background-color: #b5e4ff;
+}
+.max100{
+    max-height: 100% !important;
+}
+.menu1{
+    background-color: #88D6FA;
+}
+.menu2{
+    background-color: #66c0ff;
+}
+.menu3{
+    background-color: #0094f9;
+}
+
+.no-deco-link{
+    text-decoration: none;
+    color: dimgray;
+}
+.no-deco-link:hover{
+    text-decoration: none;
+    color: dimgray;
+}
+.height10{
+    height: 10%;
+}
+.height30{
+height: 30%;
+}
+.max20{
+    max-width: 22%;
+}
+
+td{
+    word-break: break-all;
+}
+
+tag{
+    word-break: break-all;
+}
+
+.min-100 {
+    min-height: 100vh;
+}
+
+.add-space{
+    padding-bottom: 9rem;
+}
+
+.alert-primary{
+    background-color: #b5e4ff!important;
+    border-color: #0094f9;
+    color: dimgray;
+}
+
+.positive{
+    cursor:pointer;
+    background-color: #23b343;
+}
+
+.neutral{
+    cursor:pointer;
+    background-color: #4a8fff;
+}
+
+.negative{
+    cursor:pointer;
+    background-color: #ff3838;
+}
+
+#myBtn{
+    display:none;
+}
+.btn-primary{
+    background-color: #66c0ff!important;
+    color:dimgray;
+    border-color: #0094f9;
+    margin: 2px;
+}
+.btn-primary:hover{
+    background-color: #66c0ff!important;
+    color:dimgray!important;
+    border-color: #0094f9;
+    margin: 2px;
+}
+.active{
+    background-color: #0094f9!important;
+    color:white!important;
+    border-color: #0094f9;
+    margin: 2px;
+}
+.btn-primary.disabled, .btn-primary:disabled {
+    background-color: #0094f9!important;
+    color:white!important;
+    border-color: #0094f9;
+    margin: 2px;
+}
+.btn-group>.btn:first-child{
+    margin-left: 2px;
+}
+.fc-day-today{
+    background-color: #b5e4ff!important;
+}
+
+.alert-info {
+    background-color: #00017a!important;
+    border-color: #458abf !important;
+    color: white!important;
+}
+.close{
+    color: white!important;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+
+body::-webkit-scrollbar {
+   display: none;
+}
+
+/* Hide scrollbar
+  for IE and Edge */
+body {
+    -ms-overflow-style: none;
+}
+
+.alert{
+    margin-bottom:0 !important;
+}
